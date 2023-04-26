@@ -20,7 +20,8 @@ form.onsubmit = (e) => {
 
     function checkEmail() {
         console.log("inside check email");
-        let pattern = /^[^ ];
+        //let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        let pattern = lfe2222;
         if (!eInput.value.match(pattern)) {
             eField.classList.add("error");
             eField.classList.remove("valid");
